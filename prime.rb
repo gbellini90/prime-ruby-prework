@@ -3,12 +3,12 @@ def prime?(n)
   return false
   elsif n==2 
   true
-end
+  end
   if n>2
   number_range=(2..n-1).to_a
   !number_range.any? do |x| 
     n % x == 0 
-  end
+    end
   end
 end
 
